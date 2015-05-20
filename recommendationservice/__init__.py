@@ -19,7 +19,7 @@ class RecommendationService:
         The scenario above is a full loop when you don't have anything, usually you will create a container once and invoke 
         other API according to your need.
         """
-        self.auth = ('ptvsazure@outlook.com', '5dxIeDWCg/dwSclY/mvt929z26mf/RnHKNXeqDN2he8=')
+        self.auth = (email, account_key)
 
     def create_model(self, model_name):
         """
