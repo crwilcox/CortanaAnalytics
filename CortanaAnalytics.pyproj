@@ -25,7 +25,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="recommendationservice\__init__.py" />
+    <Compile Include="cortanaanalytics\RecommendationService.py" />
+    <Compile Include="cortanaanalytics\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="setup.py">
       <SubType>Code</SubType>
     </Compile>
@@ -34,7 +37,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="recommendationservice\" />
+    <Folder Include="cortanaanalytics\" />
     <Folder Include="tests\" />
     <Folder Include="tests\resources\" />
   </ItemGroup>

@@ -1,14 +1,19 @@
 This a Python library for using https://datamarket.azure.com/dataset/amla/recommendations more conveniently.
 
 # How to Install: 
-	pip install git+git://github.com/crwilcox/RecommendationService.git
+	pip install git+git://github.com/crwilcox/CortanaAnalytics.git
 
-# Sample:
+# Samples
+
+## Recommendations
 
 ```python
+
+from cortanaanalytics.recommendations import Recommendations
+
 email = 'email@outlook.com'
 key = '1abCdEFGh/ijKlmN/opq234r56st/UvWXYZabCD7EF8='
-rs = RecommendationService(email, key)
+rs = Recommendations(email, key)
 
 # create model
 model_id = rs.create_model('groceries' + datetime.now().strftime('%Y%m%d%H%M%S'))

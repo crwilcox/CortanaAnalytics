@@ -1,11 +1,11 @@
-import requests
+﻿import requests
 import base64
 from xml.etree import ElementTree
 import os
 from time import sleep
 from datetime import datetime
 
-class RecommendationService:
+class Recommendations:
     API_VERSION = '1.0'
     ns = { 'a' : 'http://www.w3.org/2005/Atom', 'm' : "http://schemas.microsoft.com/ado/2007/08/dataservices/metadata", 'd' : "http://schemas.microsoft.com/ado/2007/08/dataservices" }
 

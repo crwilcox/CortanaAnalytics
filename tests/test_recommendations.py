@@ -1,5 +1,5 @@
-import unittest
-from recommendationservice import RecommendationService, Uris, BuildStatus, CatalogItem
+﻿import unittest
+from cortanaanalytics.recommendations  import Recommendations, Uris, BuildStatus, CatalogItem
 import httpretty
 import os
 from datetime import datetime
