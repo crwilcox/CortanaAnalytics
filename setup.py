@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+﻿#!/usr/bin/env python
 
 from setuptools import setup
 
@@ -17,24 +17,22 @@ from setuptools import setup
 # python setup.py bdist_wheel upload
 
 setup(
-    name='recommendationservice',
-    version='0.0.1',
-    description='TODO',
-    license='TODO',
-    author='TODO',
-    author_email='TODO',
-    url='https://github.com/crwilcox',
+    name='cortanaanalytics',
+    version='0.0.2',
+    description='Wrappers of Cortana Analytics services',
+    license='Apache License 2.0',
+    author='Microsoft Corporation',
+    author_email='ptvshelp@microsoft.com',
+    url='https://github.com/crwilcox/cortanaanalytics',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
-        'License :: OSI Approved :: TODO',
+        'Programming Language :: Python :: 3.5',
+        'License :: OSI Approved :: Apache Software License',
     ],
-    packages=['recommendationservice'],
+    packages=['cortanaanalytics'],
     install_requires=[
         'requests',
     ],

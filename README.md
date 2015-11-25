@@ -5,6 +5,21 @@ This a Python library for using https://datamarket.azure.com/dataset/amla/recomm
 
 # Samples
 
+## Text Analytics
+
+
+```python
+
+from cortanaanalytics.textanalytics import TextAnalytics
+
+key = '1abCdEFGh/ijKlmN/opq234r56st/UvWXYZabCD7EF8='
+ta = TextAnalytics(key)
+
+score = ta.get_sentiment("hello world")
+
+scores = ta.get_sentiment_batch([{"Text":"hello world", "Id":0}, {"Text":"hello world again", "Id":2}])
+```
+
 ## Recommendations
 
 ```python
