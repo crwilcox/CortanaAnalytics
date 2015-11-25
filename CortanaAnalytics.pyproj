@@ -25,7 +25,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="cortanaanalytics\RecommendationService.py" />
+    <Compile Include="cortanaanalytics\textanalytics.py" />
+    <Compile Include="cortanaanalytics\recommendations.py" />
     <Compile Include="cortanaanalytics\__init__.py">
       <SubType>Code</SubType>
     </Compile>

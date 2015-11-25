@@ -18,6 +18,8 @@ class Recommendations:
         
         The scenario above is a full loop when you don't have anything, usually you will create a container once and invoke 
         other API according to your need.
+
+        account_key (str): account_key provided at https://datamarket.azure.com/account/keys
         """
         self.auth = (email, account_key)
 
