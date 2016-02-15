@@ -25,6 +25,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="cortanaanalytics\anomalydetection.py" />
     <Compile Include="cortanaanalytics\textanalytics.py" />
     <Compile Include="cortanaanalytics\recommendations.py" />
     <Compile Include="cortanaanalytics\__init__.py">
@@ -33,6 +34,7 @@
     <Compile Include="setup.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="tests\test_anomalydetection.py" />
     <Compile Include="tests\test_recommendations.py" />
   </ItemGroup>
   <ItemGroup>
@@ -41,6 +43,7 @@
     <Folder Include="tests\resources\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="README" />
     <Content Include="README.md" />
     <Content Include="requirements.txt" />
   </ItemGroup>

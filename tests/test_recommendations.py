@@ -10,7 +10,6 @@ import httpretty
 import os
 from datetime import datetime
 from time import sleep
-import config
 
 class RecommendationServiceTests(unittest.TestCase):
     
