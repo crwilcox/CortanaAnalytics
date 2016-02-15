@@ -1,15 +1,27 @@
+cortanaanalytics
+================
+
 This a Python library for using Microsoft Azure Datamarket and Cortana Analytics Services.
 
-# How to Install: 
-## Official
-	pip install cortanaanalytics
-## Development
-	pip install git+git://github.com/crwilcox/CortanaAnalytics.git
 
+Installation
+------------
 
-# Examples
+To install, use pip:
 
-## Text Analytics
+```
+pip install cortanaanalytics
+```
+
+You can also get the development versions directly from the GitHub repo: http://github.com/crwilcox/cortanaanalytics
+
+Getting Started
+---------------
+Cortana Analytics has many different packages. Please look at each section for the library you rae interested in.
+	
+
+Text Analytics
+--------------
 https://datamarket.azure.com/dataset/amla/text-analytics
 
 ```python
@@ -24,11 +36,11 @@ score = ta.get_sentiment("hello world")
 scores = ta.get_sentiment_batch([{"Text":"hello world", "Id":0}, {"Text":"hello world again", "Id":2}])
 ```
 
-## Recommendations
+Recommendations
+---------------
 https://datamarket.azure.com/dataset/amla/recommendations
 
 ```python
-
 from cortanaanalytics.recommendations import Recommendations
 
 email = 'email@outlook.com'

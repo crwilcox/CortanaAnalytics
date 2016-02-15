@@ -7,6 +7,7 @@
 #-------------------------------------------------------------------------
 
 from setuptools import setup
+import os
 
 # To build:
 # python setup.py sdist
@@ -22,10 +23,14 @@ from setuptools import setup
 # python setup.py sdist upload
 # python setup.py bdist_wheel upload
 
+with open('README', 'r', encoding='utf-8') as f:
+    long_description = f.read()
+
 setup(
     name='cortanaanalytics',
     version='0.0.3',
-    description='Wrappers of Cortana Analytics services',
+    description='Python wrappers of Cortana Analytics services',
+    long_description=long_description,
     license='MIT',
     author='Microsoft Corporation',
     author_email='ptvshelp@microsoft.com',
