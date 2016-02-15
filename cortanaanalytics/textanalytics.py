@@ -1,4 +1,10 @@
-﻿import requests
+﻿#-------------------------------------------------------------------------
+# Copyright (c) Microsoft Corporation 
+# All rights reserved. 
+# 
+# Distributed under the terms of the MIT License
+#-------------------------------------------------------------------------
+import requests
 
 class TextAnalytics:
     def __init__(self, account_key):

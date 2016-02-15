@@ -33,9 +33,7 @@
     <Compile Include="setup.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="tests\test_recommendation_service.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="tests\test_recommendations.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="cortanaanalytics\" />

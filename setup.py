@@ -1,4 +1,10 @@
 ﻿#!/usr/bin/env python
+#-------------------------------------------------------------------------
+# Copyright (c) Microsoft Corporation 
+# All rights reserved. 
+# 
+# Distributed under the terms of the MIT License
+#-------------------------------------------------------------------------
 
 from setuptools import setup
 
@@ -18,19 +24,19 @@ from setuptools import setup
 
 setup(
     name='cortanaanalytics',
-    version='0.0.2',
+    version='0.0.3',
     description='Wrappers of Cortana Analytics services',
-    license='Apache License 2.0',
+    license='MIT',
     author='Microsoft Corporation',
     author_email='ptvshelp@microsoft.com',
     url='https://github.com/crwilcox/cortanaanalytics',
     classifiers=[
         'Development Status :: 3 - Alpha',
+        'License :: OSI Approved :: MIT License',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
-        'License :: OSI Approved :: Apache Software License',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3 :: Only',
     ],
     packages=['cortanaanalytics'],
     install_requires=[

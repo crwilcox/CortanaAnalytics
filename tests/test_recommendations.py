@@ -1,4 +1,10 @@
-﻿import unittest
+﻿#-------------------------------------------------------------------------
+# Copyright (c) Microsoft Corporation 
+# All rights reserved. 
+# 
+# Distributed under the terms of the MIT License
+#-------------------------------------------------------------------------
+import unittest
 from cortanaanalytics.recommendations  import Recommendations, Uris, BuildStatus, CatalogItem
 import httpretty
 import os

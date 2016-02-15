@@ -1,4 +1,10 @@
-﻿import requests
+﻿#-------------------------------------------------------------------------
+# Copyright (c) Microsoft Corporation 
+# All rights reserved. 
+# 
+# Distributed under the terms of the MIT License
+#-------------------------------------------------------------------------
+import requests
 import base64
 from xml.etree import ElementTree
 import os
