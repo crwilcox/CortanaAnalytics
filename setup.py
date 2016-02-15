@@ -28,7 +28,7 @@ with open('README', 'r', encoding='utf-8') as f:
 
 setup(
     name='cortanaanalytics',
-    version='0.0.3',
+    version='0.0.4',
     description='Python wrappers of Cortana Analytics services',
     long_description=long_description,
     license='MIT',

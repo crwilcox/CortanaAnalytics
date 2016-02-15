@@ -30,4 +30,4 @@ provides an easy way to use these APIs from Python.
 '''
 
 __author__ = "Microsoft Corporation <python@microsoft.com>"
-__version__ = "0.0.3"
+__version__ = "0.0.4"
