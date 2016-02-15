@@ -17,8 +17,9 @@ You can also get the development versions directly from the GitHub repo: http://
 
 Getting Started
 ---------------
-Cortana Analytics has many different packages. Please look at each section for the library you rae interested in.
-	
+Cortana Analytics has many different packages. Please look at each section for the library you are interested in.
+
+Also, you will need [obtain an access key](https://datamarket.azure.com/account/keys) from the Azure Datamarket and subscribe to the service you wish to use.	
 
 Text Analytics
 --------------
