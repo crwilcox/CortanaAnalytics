@@ -72,3 +72,34 @@ https://datamarket.azure.com/dataset/amla/recommendations
     rs.update_model(model_id, None, build_id)
 
     print('Built a model. Model ID:{} Build ID:{}'.format(model_id, build_id))
+
+Anomaly Detection
+-----------------
+https://datamarket.azure.com/dataset/aml_labs/anomalydetection
+
+.. code:: python
+
+    from cortanaanalytics.anomalydetection import AnomalyDetection  
+
+    key = '1abCdEFGh/ijKlmN/opq234r56st/UvWXYZabCD7EF8='
+    ad = AnomalyDetection(key)
+
+    data = [
+                (datetime(2014, 9, 21, 11, 5, 0), 3),
+                (datetime(2014, 9, 21, 11, 10, 0), 9.09),
+                (datetime(2014, 9, 21, 11, 15, 0), 0)
+           ]
+    result = ad.score(test_data)
+
+or you can also use strings
+
+.. code:: python
+
+    from cortanaanalytics.anomalydetection import AnomalyDetection  
+
+    key = '1abCdEFGh/ijKlmN/opq234r56st/UvWXYZabCD7EF8='
+    ad = AnomalyDetection(key)
+
+    data = "9/21/2014 11:05:00 AM=3;9/21/2014 11:10:00 AM=9.09;9/21/2014 11:15:00 AM=0;"
+    params = "SpikeDetector.TukeyThresh=3; SpikeDetector.ZscoreThresh=3"
+    result = ad.score_raw(data, params)
